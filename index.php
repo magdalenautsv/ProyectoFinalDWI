@@ -22,6 +22,8 @@ session_start();
         </li>
         <li class="btn btn_home">
           <a class="nav-link active" href="index.php">INICIO</a>
+        </li>        <li class="btn btn_home">
+          <a class="nav-link active" href="magdalena.php">Magdalena</a>
         </li>
         <?php if (!isset($_SESSION["User_Logueado"])) { ?>
           <li class="btn btn_login">
@@ -46,15 +48,12 @@ session_start();
           ?>
           <span style="font-size:20px; color:red;"><i class="fa fa-power-off"></i></span>
           <b><a href="logout.php" style="color:red;"> SALIR </a></b>
-<!--           
-          <li class="nav-item dropdown; btn btn_home" aria-labelledby="navbarDropdown">
-            <a href=""  aria-labelledby="navbarDropdown">DEMO 801</a>
-            
-          <li><a class="dropdown-item" href="">demo1</a></li>
-          <li><a class="dropdown-item" href="">demo2</a></li>
-
-          </li> -->
         </li>
+        <!-- Nuevo apartado para mostrar el nombre del usuario -->
+        <li class="btn btn_nombre">
+          <a class="nav-link active" href="#">MI NOMBRE: <?php echo $_SESSION["User_Logueado"]; ?></a>
+        </li>
+        <!-- Fin del nuevo apartado -->
         <ul class="navbar-nav ml-auto">
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" id="userDropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
