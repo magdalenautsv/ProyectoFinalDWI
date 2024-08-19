@@ -30,16 +30,5 @@
       <span style="font-size:20px; color:red;"><i class="fa fa-power-off"></i></span>
       <b><a href="logout.php" style="color:red;"> SALIR </a></b>
     </li>
-    <?php  } ?>
-    <!-- Nuevo botón Cielito -->
-    <li class="btn btn_cielito">
-      <button onclick="mostrarInfo()">Cielito</button>
-    </li>
-  </ul>
-</div>
-
-<script>
-  function mostrarInfo() {
-    alert("Teléfono: 9211506900\nDirección: Vicente Guerrero, Colonia Centro");
-  }
-</script>
+    <?php  } 
+    ?>
