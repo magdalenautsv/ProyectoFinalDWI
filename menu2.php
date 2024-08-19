@@ -10,6 +10,10 @@
           <li class="btn btn_login">
             <a class="nav-link active" href="Login.php">LOGIN</a>
           </li>
+          <li class="btn btn_login">
+            <a class="nav-link active" href="Info.php">MAGDA SANCHEZ
+            </a>
+          </li>
         <?php } ?>
         <?php if (isset($_SESSION["User_Logueado"])) { ?>
           <li class="btn btn_producto">
