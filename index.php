@@ -24,8 +24,11 @@ session_start();
           <a class="nav-link active" href="index.php">INICIO</a>
         </li>        <li class="btn btn_home">
           <a class="nav-link active" href="magdalena.php">Magdalena</a>
+<<<<<<< HEAD
         </li>        </li>        <li class="btn btn_home">
           <a class="nav-link active" href="cielito.php">CIELITO</a>
+=======
+>>>>>>> fcbab3bb29f10aceaf36b35b9628b727983e8ee1
         </li>
         <?php if (!isset($_SESSION["User_Logueado"])) { ?>
           <li class="btn btn_login">
