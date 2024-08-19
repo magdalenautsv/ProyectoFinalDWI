@@ -10,6 +10,18 @@
           <li class="btn btn_login">
             <a class="nav-link active" href="Login.php">LOGIN</a>
           </li>
+           <!-- Nuevo botón Cielito -->
+    <li class="btn btn_cielito">
+      <button onclick="mostrarInfo()">Cielito</button>
+    </li>
+  </ul>
+</div>
+
+<script>
+  function mostrarInfo() {
+    alert("Teléfono: 9211506900\nDirección: Vicente Guerrero, Colonia Centro");
+  }
+</script>
         <?php } ?>
         <?php if (isset($_SESSION["User_Logueado"])) { ?>
           <li class="btn btn_producto">
@@ -34,3 +46,4 @@
       <?php  } ?>
       </ul>
     </div>
+    
