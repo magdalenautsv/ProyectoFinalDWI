@@ -28,10 +28,6 @@ session_start();
         </li>        </li>        <li class="btn btn_home">
           <a class="nav-link active" href="cielito.php">CIELITO</a>
 
-
-        </li>        </li>        <li class="btn btn_home">
-          <a class="nav-link active" href="cielito.php">CIELITO</a>
-
         </li>
         <?php if (!isset($_SESSION["User_Logueado"])) { ?>
           <li class="btn btn_login">
