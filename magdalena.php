@@ -42,7 +42,12 @@
 <body>
     <div class="container">
         <h1>Magdalena Sánchez Alejandro</h1>
-        <p>Me dedico a trabajar en una papelería.</p>
+        <p>Me dedico a trabajar en mi propio negocio de calzado.</p>
+       <ul>Estudiante de ingenera
+       </ul>
+       <ul>soltera</ul>
+       <ul>Edad: 35 años</ul>
+       <ul>Telenofo: 9212389620</ul>
     </div>
 </body>
 
